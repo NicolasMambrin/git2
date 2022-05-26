@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'anime';
+    src: url(./assets/Fuentes/Anime\ Font.ttf);
+}
+@font-face {
+    font-family: "animebody";
+    src: url(./assets/Fuentes/aAsianHiro.otf);
+}
+body{
+    background-image: url(./assets/Imagenes/fondo.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "animebody";
+}
+.container-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.container{
+ width: 50vw;
+ height: 40vh;
+ overflow: hidden;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ background: rgb(123,93,159);
+ background: linear-gradient(90deg, rgba(123,93,159,1) 0%, rgba(119,115,130,1) 100%);
+border-radius: 20px;
+
+}
+.killua{
+    border-radius: 20px;
+    height: 100%;
+}
+.form{
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+::placeholder{
+    font-family: "anime";
+    font-size:smaller;
+    text-align: center;
+    letter-spacing: 5px;
+}
+input{
+    font-family: "anime";
+    text-align: center;
+    width: 70%;
+    height: 25px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    margin: 10px;
+}
+.botton{
+    background: #3277BA;
+    width: 70%;
+    border-radius: 20px;
+    height: 25px;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    font-family: "animebody";
+}
