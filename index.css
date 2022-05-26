@@ -21,7 +21,7 @@ body{
 }
 .container{
  width: 50vw;
- height: 40vh;
+ /*height: 40vh;*/
  overflow: hidden;
  display: flex;
  justify-content: space-between;
